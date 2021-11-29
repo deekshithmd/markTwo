@@ -2,7 +2,7 @@ var score=0
 const chalk=require("chalk")
 var readlineSync=require("readline-sync")
 var name=readlineSync.question("What's your name? ")
-console.log("Welcome "+name+", Are you good in general knowledge? Let's Test your knowledge level")
+console.log("Welcome "+name+", Are you good in general knowledge?...Let's Test your knowledge level")
 
 function play(question,answer){
   var ans=readlineSync.question(question+" : ")
